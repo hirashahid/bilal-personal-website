@@ -2,7 +2,7 @@ import HoverSpan from '../components/HoverSpan';
 
 export default function HomePage({ play, pauseAll, setHoverGif }) {
   const hs = (gif, sound, text) => (
-    <HoverSpan gif={gif} sound={sound} play={play} pauseAll={pauseAll} setHoverGif={setHoverGif}>
+    <HoverSpan gif={gif ? `/img/${gif}.gif` : null} sound={sound} play={play} pauseAll={pauseAll} setHoverGif={setHoverGif}>
       {text}
     </HoverSpan>
   );
