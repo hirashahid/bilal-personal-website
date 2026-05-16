@@ -24,10 +24,10 @@ const PAGE_GRADIENTS = {
 };
 
 const NAV_GIFS = {
-  home:    '/img/hello.gif',
-  about:   '/img/me.gif',
-  work:    '/img/muscles.gif',
-  contact: '/img/wink.gif',
+  home:    '/img/home.gif',
+  about:   '/img/goal.gif',
+  work:    '/img/work.gif',
+  contact: '/img/come.gif',
 };
 
 // Sound plays on hover — matches original data-sound behaviour on nav links
